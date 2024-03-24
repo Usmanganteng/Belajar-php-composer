@@ -1,0 +1,32 @@
+{
+    "name": "muhamadaldizarilham/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Muhamadaldizarilham\\BelajarPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucian666",
+            "email": "ilhamaldizar@gmail.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "MuhamadAldizarIlham\\" : "src/"
+        }
+    },
+    "repositories": [
+        {
+        "type" : "vcs",
+        "url" : "https://github.com/Usmanganteng/Belajar-php-composer-library"
+    }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "muhamadaldizarilham/belajar-php-composer-library" : "2.0.0",
+        "monolog/monolog" : "^3.5"
+    }
+}
